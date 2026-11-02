@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   base: '/ci_cd/',
   plugins: [react()],
-    test: {
-      environment: 'jsdom',
-    },
+  test: {
+    environment: 'jsdom',
+  },
 })
